@@ -1,0 +1,65 @@
+{
+	"pokemons": [
+		{
+			"id": 1,
+			"name": "Bulbasaur",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+			"description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+			"type": ["grass", "poison"]
+		}, {
+			"id": 2,
+			"name": "Charmander",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+			"description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+			"type": ["fire"]
+		}, {
+			"id": 3,
+			"name": "Squirtle",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+			"description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+			"type": ["water"]
+		}, {
+			"id": 4,
+			"name": "Pikachu",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+			"description": "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
+			"type": ["electric"]
+		}, {
+			"id": 5,
+			"name": "Growlithe",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/058.png",
+			"description": "Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won't forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things.",
+			"type": ["fire"]
+		}, {
+			"id": 6,
+			"name": "Dragonite",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png",
+			"description": "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
+			"type": ["dragon", "flying"]
+		}, {
+			"id": 7,
+			"name": "Magikarp",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/129.png",
+			"description": "Magikarp is a pathetic excuse for a Pokémon that is only capable of flopping and splashing. This behavior prompted scientists to undertake research into it.",
+			"type": ["water"]
+		}, {
+			"id": 8,
+			"name": "Mew",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png",
+			"description": "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
+			"type": ["psychic"]
+		}, {
+			"id": 9,
+			"name": "Mudkip",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/258.png",
+			"description": "The fin on Mudkip's head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes.",
+			"type": ["water"]
+		}, {
+			"id": 10,
+			"name": "Jigglypuff",
+			"photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
+			"description": "Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.",
+			"type": ["normal", "fairy"]
+		}
+	]
+}
