@@ -12,9 +12,25 @@ export default () => (
 	<Router>
 		<div>
 			<Header />
-			<Switch>
-				<Route exact path='/' component={() => <div>Hello</div>}/>
-			</Switch>
+			<main>
+				<div className="container">
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+					<div>hello</div>
+				</div>
+				<Switch>
+					<Route exact path='/' component={() => <div>Hello</div>}/>
+				</Switch>
+			</main>
 			<Footer />
 		</div>
 	</Router>
