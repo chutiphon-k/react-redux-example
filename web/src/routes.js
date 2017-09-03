@@ -16,16 +16,6 @@ export default () => (
 				<div className="container">
 					<div>hello</div>
 					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
-					<div>hello</div>
 				</div>
 				<Switch>
 					<Route exact path='/' component={() => <div>Hello</div>}/>
