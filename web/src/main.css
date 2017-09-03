@@ -7,12 +7,11 @@ html, body {
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
+	  background-color: #f5f5f5;
 }
 
 main {
-  background-color: #ccc;
+  padding: 10px;
 }
 
 header {
@@ -23,9 +22,15 @@ footer {
   height: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
-  border: 1px solid black;
-  display: flex;
+  background-color: white;
   max-width: 960px;
   margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }

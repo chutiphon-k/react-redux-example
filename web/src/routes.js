@@ -7,18 +7,17 @@ import {
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { Counter, CounterRedux, Home } from './containers'
 
 export default () => (
 	<Router>
 		<div>
 			<Header />
 			<main>
-				<div className="container">
-					<div>hello</div>
-					<div>hello</div>
-				</div>
 				<Switch>
-					<Route exact path='/' component={() => <div>Hello</div>}/>
+					<Route exact path='/' component={Home} />
+					<Route  path='/counter' component={Counter} />
+					<Route  path='/counter-redux' component={CounterRedux} />
 				</Switch>
 			</main>
 			<Footer />
