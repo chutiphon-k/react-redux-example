@@ -7,7 +7,7 @@ import {
 
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { Counter, CounterRedux, Home } from './containers'
+import { Counter, CounterRedux, Home, Pokemon } from './containers'
 
 export default () => (
 	<Router>
@@ -18,6 +18,7 @@ export default () => (
 					<Route exact path='/' component={Home} />
 					<Route  path='/counter' component={Counter} />
 					<Route  path='/counter-redux' component={CounterRedux} />
+					<Route  path='/pokemon' component={Pokemon} />
 				</Switch>
 			</main>
 			<Footer />
